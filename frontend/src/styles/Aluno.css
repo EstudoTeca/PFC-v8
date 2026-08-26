@@ -1,0 +1,59 @@
+.aluno-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-banner {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.secao-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    color: #1e293b;
+}
+
+.grid-materias {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card-materia {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.2s;
+    border: 1px solid #e2e8f0;
+    cursor: pointer;
+}
+
+.card-materia:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.tag-ano {
+    background: #dbeafe;
+    color: #2563eb;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.notificacao-cronograma {
+    background: #fffbeb;
+    border-left: 5px solid #f59e0b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

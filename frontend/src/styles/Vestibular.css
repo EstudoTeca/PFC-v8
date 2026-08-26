@@ -1,0 +1,61 @@
+.vestibular-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card-vestibular {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Redação */
+.editor-redacao {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.notas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.nota-box {
+    background: #f0fdf4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #bbf7d0;
+}
+
+/* Questões */
+.questao-card {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.opcao-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+.opcao-btn:hover { background: #f8fafc; }
