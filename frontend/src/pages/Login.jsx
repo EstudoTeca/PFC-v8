@@ -19,6 +19,7 @@ const Login = () => {
       localStorage.setItem('nome', res.data.nome);
       localStorage.setItem('perfil', res.data.perfil);
       localStorage.setItem('ano', res.data.ano);
+      localStorage.setItem('id', res.data.id); 
       navigate('/dashboard');
     } catch (err) {
       alert(err.response?.data?.error || "Erro de conexão");
